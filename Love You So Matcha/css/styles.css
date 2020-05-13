@@ -1,0 +1,176 @@
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-Bold";
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* heading section */
+
+.big-heading{
+  font-weight:900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #445C3C;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.colored-section{
+  background-color:#C9D99E;
+  color: #fff;
+}
+
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+  color: #445C3C;
+
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title section */
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-image{
+  width: 75%;
+  transform: rotate(15deg);
+  position: absolute;
+  left: 35%;
+}
+
+/* Features section */
+
+#features{
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+.icon{
+  color: #445C3C;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #FAE8C8;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+  background-color: #FDA77F;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color:  #C9D99E;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+
+/* Call to Action Section */
+
+
+/* Footer Section */
+
+
+.social-medias{
+  margin: 20px 10px;
+}
+
+
+@media (max-width: 1028px){
+
+#title{
+  text-align: center;
+}
+
+.title-image{
+  position: static;
+  transform: rotate(0);
+}
+
+}
